@@ -62,6 +62,19 @@ h6 {
   isolation: isolate;
 }
 
+:root {
+  
+    --sky-bl-400: #0ea5e9
+    --sky-bl-500: #38bdf8
+    --main-bg-cl: #d1d5db
+    --yello-cl: #facc15
+    --card-para-cl: #9ca3af
+    --title-cl-black: #030712
+    --trend-sky-light: #e0f2fe;
+    --trending-bg-pink:#fca5a5;
+    --trending-bg-neutral: #a3a3a3;
+   
+}
 body {
   font-family: "Roboto", sans-serif;
 }
