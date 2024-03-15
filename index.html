@@ -89,24 +89,39 @@
       </nav>
       <header class="header">
         <div class="header--nav__top">
-          <form action="#">
+          <form class="form" action="#">
             <label for="search-box">
-              <img src="" alt="" />
-              <input
-                type="search"
-                name="search-box"
-                id="search-box"
-                placeholder="search..."
-              />
+              <img src="./svg-images/magnify.svg" alt="search" />
             </label>
+            <input
+              type="search"
+              name="search-box"
+              id="search-box"
+              placeholder="search..."
+            />
           </form>
-          <img src="" alt="" />
-          <img src="" alt="" />
-          <p>Morgan Oakley</p>
+          <div class="header-top-right">
+            <a href="#">
+              <img src="./svg-images/bell-ring.svg" alt="notification bell" />
+            </a>
+            <a href="#">
+              <img
+                class="profile-pic profile__top"
+                src="./profile-images/profile-pic.jpg"
+                alt="fluffy-cat"
+              />
+            </a>
+
+            <p>Morgan Oakley</p>
+          </div>
         </div>
         <div class="header--nav__bottom">
           <div class="nav--text__greeting">
-            <img src="" alt="" />
+            <img
+              class="profile-pic profile__down"
+              src="./profile-images/profile-pic.jpg"
+              alt="fluffy-cat"
+            />
             <div>
               <p class="header--admin-greeting">Hi there,</p>
               <p class="header--admin-name">Morgan Oakley(@morgan)</p>
@@ -114,9 +129,15 @@
           </div>
           <nav class="header--nav-links">
             <ul class="header--nav-list">
-              <li>New</li>
-              <li>Upload</li>
-              <li>Share</li>
+              <a href="#">
+                <li>New</li>
+              </a>
+              <a href="#">
+                <li>Upload</li>
+              </a>
+              <a href="#">
+                <li>Share</li>
+              </a>
             </ul>
           </nav>
         </div>
