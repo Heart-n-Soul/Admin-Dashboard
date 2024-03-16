@@ -67,7 +67,7 @@ h6 {
   --sky-bl-600: #0284c7;
   --main-bg-cl: #f0f9ff;
   --yello-cl: #facc15;
-  --card-para-cl: #9ca3af;
+  --card-para-cl: #4d4d4d;
   --title-cl-black: #030712;
   --trend-sky-light: #e0f2fe;
   --trending-bg-pink: #fca5a5;
@@ -194,7 +194,7 @@ input {
   width: 90%;
 }
 
-.profile__down{
+.profile__down {
   width: 3.5rem !important;
 }
 
@@ -204,12 +204,12 @@ input {
   align-items: center;
 }
 
-.header--admin-greeting{
+.header--admin-greeting {
   font-weight: 900;
   font-size: 0.9rem;
 }
 
-.header--admin-name{
+.header--admin-name {
   font-weight: 900;
   font-size: 1.3rem;
 }
@@ -240,10 +240,85 @@ li {
   gap: 20px;
   grid-column: 2 / 3;
   grid-row: 2/ 3;
+  padding: 30px 20px 50px;
+}
+
+.main-article--heading {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
 }
 
 .cards-wrapper {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px 25px;
+  /* border-left: 7px solid var(--yello-cl);
+  */
+  border-radius: 5px;
+  position: relative;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 7px;
+  border-top-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  background-color: var(--yello-cl);
+}
+
+.card--title {
+  font-weight: 900;
+}
+
+.card--title + p {
+  color: var(--card-para-cl);
+}
+
+.card--icons {
+  display: flex;
+  gap: 20px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.card--icons img {
+  width: 20px;
+}
+
+.announcement--heading {
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+}
+
+.announcement--container {
+  background-color: #ffffff;
+  margin-bottom: 20px;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.trending--heading {
+  margin-bottom: 7px;
+  font-size: 1.2rem;
+}
+
+.trending--container {
+  background-color: #ffffff;
+  padding: 25px 30px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
 }
