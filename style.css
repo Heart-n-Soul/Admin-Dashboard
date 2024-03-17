@@ -351,21 +351,20 @@ li {
   box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
 }
 
-.trending-content{
+.trending-content {
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 20px;
   margin-bottom: 15px;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
-.trending-content img{
+.trending-content img {
   width: 35px;
   border-radius: 50%;
 }
 
-.trending-text p:first-of-type{
+.trending-text p:first-of-type {
   font-weight: 500;
 }
-
