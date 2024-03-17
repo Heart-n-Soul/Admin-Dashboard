@@ -63,6 +63,7 @@ h6 {
 }
 
 :root {
+  font-size: 14px;
   --sky-bl-500: #0ea5e9;
   --sky-bl-600: #0284c7;
   --main-bg-cl: #f0f9ff;
